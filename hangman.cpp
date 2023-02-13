@@ -3,8 +3,8 @@
 using namespace std;
 
 /*
-boolean returning function with an integer parameter that takes in the amount of wrong answers by the userr 
-and returns the part of the Hangman by comparing based on the number of wrong answers by using 
+boolean returning function with an integer parameter that takes in the amount of wrong answers by the user,
+returns the part of the Hangman by comparing the number of wrong answers by using 
 if else statements to compare amount of wrong answers and 
 print out the Hangman using string datatype
 */
@@ -116,12 +116,12 @@ int main()
             cout << "incorrect" << endl;
             incorrect_count++;
 
-            if (!is_hung(incorrect_count)) //check if the function number 
+            if (!is_hung(incorrect_count)) //if the function returns false(total number of wrong answers equals 7, break the loop
             {
                 break;
             }
         }
-        count++; //increment count to ensure the while loop is not infinite
+        count++; //increment count 
     }
 
     return 0;
