@@ -45,7 +45,6 @@ A Answer: &&
 B Answer: ==
 C Answer: ||
 D Answer: =
-
 Correct answer: D
 Question: An assertion that must be true before a module is executed for the module to execute correctly is a
 A Answer: Postcondition
